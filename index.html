@@ -21,15 +21,15 @@
   <link rel="canonical" href="https://oriiface.com">
   <link rel="apple-touch-icon" href="images/logo.png">
   <link rel="icon" type="image/png" href="images/favicon.png">
-  
+
   <title>Oriiface Dental Care — Best Dental Clinic in Rohtak, Haryana</title>
-  
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Merriweather:ital@0;1&display=swap" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/style.css">
-  
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -90,31 +90,36 @@
   <nav class="navbar">
     <div class="nav-inner container">
       <div class="nav-logo">
-        <svg class="logo-mark" viewBox="0 0 40 40" width="32" height="32">
-          <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M20 4v32M12 8c0 4 2 10 8 12s8-8 8-12"/>
-            <path d="M12 8h16M12 14h16"/>
-            <ellipse cx="20" cy="26" rx="4" ry="6"/>
-          </g>
-        </svg>
-        <span class="logo-text">Oriiface</span>
+        <div class="logo-mark">
+          <svg viewBox="0 0 40 40" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <g>
+              <path d="M20 4v32M12 8c0 4 2 10 8 12s8-8 8-12"/>
+              <path d="M12 8h16M12 14h16"/>
+              <ellipse cx="20" cy="26" rx="4" ry="6"/>
+            </g>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <strong>Oriiface</strong>
+          <span>Dental & Maxillofacial</span>
+        </div>
       </div>
 
       <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html" class="active">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
       </div>
 
       <div class="nav-right">
         <a href="tel:+919540670276" class="nav-call">
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
           </svg>
           095406 70276
         </a>
-        <button class="btn btn-gold">Book Appointment</button>
+        <a href="contact.html" class="btn btn-gold">Book Appointment</a>
       </div>
 
       <button class="hamburger">
@@ -128,11 +133,12 @@
   <!-- MOBILE MENU -->
   <div class="mobile-menu">
     <a href="index.html">Home</a>
-    <a href="#services">Services</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <div class="divider"></div>
     <a href="tel:+919540670276">Call: 095406 70276</a>
-    <button class="btn btn-gold" style="width: 100%;">Book Appointment</button>
+    <a href="contact.html" class="btn btn-gold">Book Appointment</a>
   </div>
 
   <!-- FLOATING WHATSAPP BUTTON -->
@@ -144,44 +150,43 @@
 
   <!-- HERO SECTION -->
   <section class="hero">
-    <div class="hero-bg" style="background-image: url('images/clinic-1.jpg');"></div>
-    <div class="hero-overlay" style="background: rgba(9, 82, 78, 0.65);"></div>
-    
+    <div class="hero-bg"></div>
+
     <div class="hero-content container">
       <div class="hero-pill reveal">
         <span class="hero-pill-dot"></span>
-        Rohtak's Most Trusted Dental Clinic
+        <span>Rohtak's Most Trusted Dental Clinic</span>
       </div>
-      
+
       <h1 class="reveal">
         A Smile You'll Be Proud To <em>Show</em>
       </h1>
-      
+
       <p class="hero-sub reveal">
         Expert dental care by Dr. Vikramjet — Implants, Root Canal, Cosmetic Dentistry. 5000+ happy patients, 5.0 Google rating.
       </p>
-      
+
       <div class="hero-ctas reveal">
-        <button class="btn btn-gold">Book Appointment</button>
-        <button class="btn btn-ghost">Call Now</button>
+        <a href="contact.html" class="btn btn-gold">Book Appointment</a>
+        <a href="tel:+919540670276" class="btn btn-ghost">Call Now</a>
       </div>
-      
+
       <div class="hero-trust reveal">
         <div class="trust-item">
-          <div class="trust-value">5000+</div>
-          <div class="trust-label">Patients</div>
+          <strong>5000+</strong>
+          <span>Patients</span>
         </div>
         <div class="trust-item">
-          <div class="trust-value">5.0<span style="font-size: 0.6em;">★</span></div>
-          <div class="trust-label">Google Rating</div>
+          <strong>5.0</strong>
+          <span>Google Rating</span>
         </div>
         <div class="trust-item">
-          <div class="trust-value">12+</div>
-          <div class="trust-label">Years Exp</div>
+          <strong>12+</strong>
+          <span>Years Exp</span>
         </div>
         <div class="trust-item">
-          <div class="trust-value">2</div>
-          <div class="trust-label">Hospitals</div>
+          <strong>2</strong>
+          <span>Hospitals</span>
         </div>
       </div>
     </div>
@@ -189,60 +194,72 @@
 
   <!-- TRUST BAR -->
   <section class="trustbar">
-    <div class="trustbar-inner container">
+    <div class="trustbar-inner">
       <div class="trustbar-item reveal">
-        <svg class="trustbar-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/>
-        </svg>
+        <div class="trustbar-icon">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/>
+          </svg>
+        </div>
         <div class="trustbar-text">
-          <div class="text-val">5055+</div>
-          <div class="text-label">Google Reviews</div>
+          <strong>5055+</strong>
+          <span>Google Reviews</span>
         </div>
       </div>
 
       <div class="trustbar-item reveal">
-        <svg class="trustbar-icon" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5m-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11m3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/>
-        </svg>
+        <div class="trustbar-icon">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5m-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11m3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/>
+          </svg>
+        </div>
         <div class="trustbar-text">
-          <div class="text-val">5.0</div>
-          <div class="text-label">Google Rating</div>
+          <strong>5.0</strong>
+          <span>Google Rating</span>
         </div>
       </div>
 
       <div class="trustbar-item reveal">
-        <svg class="trustbar-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="12" r="1"/><path d="M12 1v6m0 6v6M4.22 4.22l4.24 4.24m5.08 5.08l4.24 4.24M1 12h6m6 0h6m-1.78-7.22l-4.24 4.24m-5.08 5.08l-4.24 4.24"/>
-        </svg>
+        <div class="trustbar-icon">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="1"/><path d="M12 1v6m0 6v6M4.22 4.22l4.24 4.24m5.08 5.08l4.24 4.24M1 12h6m6 0h6m-1.78-7.22l-4.24 4.24m-5.08 5.08l-4.24 4.24"/>
+          </svg>
+        </div>
         <div class="trustbar-text">
-          <div class="text-val">12+</div>
-          <div class="text-label">Years Experience</div>
+          <strong>12+</strong>
+          <span>Years Experience</span>
         </div>
       </div>
 
       <div class="trustbar-item reveal">
-        <svg class="trustbar-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-        </svg>
+        <div class="trustbar-icon">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
         <div class="trustbar-text">
-          <div class="text-val">2</div>
-          <div class="text-label">Hospital Affiliations</div>
+          <strong>2</strong>
+          <span>Hospital Affiliations</span>
         </div>
       </div>
     </div>
   </section>
 
   <!-- WHY CHOOSE US -->
-  <section id="about" class="why-section section">
+  <section class="why-section section">
     <div class="container">
       <div class="why-grid">
         <!-- Left: Photos -->
         <div class="why-photos reveal d1">
-          <div class="why-photo-main" style="background-image: url('images/clinic-2.jpg');"></div>
-          <div class="why-photo-sec" style="background-image: url('images/clinic-3.jpg');"></div>
+          <div class="why-photo-main">
+            <img src="images/clinic-2.jpg" alt="Modern dental clinic facility">
+          </div>
+          <div class="why-photo-sec">
+            <img src="images/clinic-3.jpg" alt="Advanced treatment area">
+          </div>
           <div class="why-float-badge">
-            <div class="badge-value">5000+</div>
-            <div class="badge-label">Happy Patients</div>
+            <strong>5000+</strong>
+            <span>Happy Patients</span>
           </div>
         </div>
 
@@ -254,41 +271,49 @@
 
           <div class="why-list">
             <div class="why-item">
-              <svg class="why-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-              </svg>
+              <div class="why-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+              </div>
               <div>
-                <div class="why-item-title">Advanced Equipment</div>
+                <h4>Advanced Equipment</h4>
                 <p>Latest digital imaging, painless procedures, and state-of-the-art technology for precise, comfortable care.</p>
               </div>
             </div>
 
             <div class="why-item">
-              <svg class="why-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-              </svg>
+              <div class="why-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+              </div>
               <div>
-                <div class="why-item-title">Dr. Vikramjet's Expertise</div>
+                <h4>Dr. Vikramjet's Expertise</h4>
                 <p>BDS, MDS, Consultant Oral & Maxillofacial Surgeon with 12+ years of clinical excellence and patient trust.</p>
               </div>
             </div>
 
             <div class="why-item">
-              <svg class="why-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
-              </svg>
+              <div class="why-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                </svg>
+              </div>
               <div>
-                <div class="why-item-title">Budget-Friendly Rates</div>
+                <h4>Budget-Friendly Rates</h4>
                 <p>Premium dental care at transparent, affordable pricing. Quality treatment without the premium clinic markup.</p>
               </div>
             </div>
 
             <div class="why-item">
-              <svg class="why-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
-              </svg>
+              <div class="why-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
               <div>
-                <div class="why-item-title">Conveniently Located</div>
+                <h4>Conveniently Located</h4>
                 <p>On Delhi Road near MDU campus. Easy parking, accessible public transport, convenient timing Mon-Sat 9AM-7:30PM.</p>
               </div>
             </div>
@@ -299,7 +324,7 @@
   </section>
 
   <!-- SERVICES SECTION -->
-  <section id="services" class="services-section section-sm" style="background: #FBF8F3;">
+  <section class="services-section section-sm">
     <div class="container">
       <div class="text-center" style="margin-bottom: 3rem;">
         <div class="eyebrow">Our Services</div>
@@ -310,112 +335,150 @@
       <div class="services-grid reveal d1">
         <!-- Service 1: General Dentistry -->
         <div class="svc-card">
-          <svg class="svc-icon" viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/>
-              <path d="M12 6v12M6 12h12"/>
-              <circle cx="12" cy="12" r="3"/>
-            </g>
-          </svg>
-          <h3>General Dentistry</h3>
+          <div class="svc-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <g>
+                <path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/>
+                <path d="M12 6v12M6 12h12"/>
+                <circle cx="12" cy="12" r="3"/>
+              </g>
+            </svg>
+          </div>
+          <h4>General Dentistry</h4>
           <p>Cleanings, fillings, and preventive care to maintain your healthy smile year-round.</p>
-          <a href="#contact" class="svc-more">Learn more →</a>
+          <a href="contact.html" class="svc-more">Learn more <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
         </div>
 
         <!-- Service 2: Dental Implants -->
         <div class="svc-card">
-          <svg class="svc-icon" viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5m-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11m3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/>
-          </svg>
-          <h3>Dental Implants</h3>
+          <div class="svc-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5m-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11m3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/>
+            </svg>
+          </div>
+          <h4>Dental Implants</h4>
           <p>Permanent tooth replacement with natural appearance and durability. Expert surgical placement.</p>
-          <a href="#contact" class="svc-more">Learn more →</a>
+          <a href="contact.html" class="svc-more">Learn more <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
         </div>
 
         <!-- Service 3: Root Canal Therapy -->
         <div class="svc-card">
-          <svg class="svc-icon" viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM9 11a3 3 0 0 0-3 3v1M15 11a3 3 0 0 1 3 3v1"/>
-          </svg>
-          <h3>Root Canal Therapy</h3>
+          <div class="svc-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM9 11a3 3 0 0 0-3 3v1M15 11a3 3 0 0 1 3 3v1"/>
+            </svg>
+          </div>
+          <h4>Root Canal Therapy</h4>
           <p>Pain-free, tooth-saving treatment to eliminate infection and restore natural function.</p>
-          <a href="#contact" class="svc-more">Learn more →</a>
+          <a href="contact.html" class="svc-more">Learn more <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
         </div>
 
         <!-- Service 4: Smile Design -->
         <div class="svc-card">
-          <svg class="svc-icon" viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/>
-          </svg>
-          <h3>Smile Design</h3>
+          <div class="svc-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/>
+            </svg>
+          </div>
+          <h4>Smile Design</h4>
           <p>Cosmetic enhancements including veneers, whitening, and reshaping for your dream smile.</p>
-          <a href="#contact" class="svc-more">Learn more →</a>
+          <a href="contact.html" class="svc-more">Learn more <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
         </div>
 
         <!-- Service 5: Orthodontics -->
         <div class="svc-card">
-          <svg class="svc-icon" viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M9 3H5a2 2 0 0 0-2 2v4m0 0a9 9 0 0 0 18 0m0 0V5a2 2 0 0 0-2-2h-4m0 0v4m0-4L9 7m0 0l6 6m6-6v4m0 0a9 9 0 0 1-18 0m0 0v4m0 0l6-6m-6 6l6 6"/>
-          </svg>
-          <h3>Orthodontics</h3>
+          <div class="svc-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 3H5a2 2 0 0 0-2 2v4m0 0a9 9 0 0 0 18 0m0 0V5a2 2 0 0 0-2-2h-4m0 0v4m0-4L9 7m0 0l6 6m6-6v4m0 0a9 9 0 0 1-18 0m0 0v4m0 0l6-6m-6 6l6 6"/>
+            </svg>
+          </div>
+          <h4>Orthodontics</h4>
           <p>Braces and aligners to straighten teeth and perfect your bite with modern techniques.</p>
-          <a href="#contact" class="svc-more">Learn more →</a>
+          <a href="contact.html" class="svc-more">Learn more <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
         </div>
 
         <!-- Service 6: Emergency Care -->
         <div class="svc-card">
-          <svg class="svc-icon" viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10"/><path d="M12 6v6m3-3H9"/>
-          </svg>
-          <h3>Emergency Care</h3>
+          <div class="svc-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><path d="M12 6v6m3-3H9"/>
+            </svg>
+          </div>
+          <h4>Emergency Care</h4>
           <p>Same-day relief for dental pain, trauma, and urgent issues. Call for immediate assistance.</p>
-          <a href="#contact" class="svc-more">Learn more →</a>
+          <a href="contact.html" class="svc-more">Learn more <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- DOCTOR SPOTLIGHT -->
-  <section class="doctor-section" style="background: #09524E; color: white; padding: 4rem 0;">
+  <section class="doctor-section">
     <div class="container">
       <div class="doctor-grid">
         <!-- Left: Photo -->
         <div class="doctor-visual reveal d1">
-          <div class="doctor-photo" style="background-image: url('images/clinic-2.jpg');"></div>
-          <div class="doctor-exp-badge">12+ Yrs</div>
+          <div class="doctor-photo">
+            <img src="images/clinic-2.jpg" alt="Dr. Vikramjet">
+          </div>
+          <div class="doctor-exp-badge">
+            <strong>12+</strong>
+            <span>Years Exp</span>
+          </div>
         </div>
 
         <!-- Right: Info -->
         <div class="doctor-content reveal d2">
-          <div class="eyebrow" style="color: #D4AF37;">Meet Your Doctor</div>
-          <h2 style="color: white;">Dr. Vikramjet</h2>
-          <p style="font-style: italic; font-size: 1.1rem; color: #D4AF37; margin-bottom: 1.5rem;">
-            BDS, MDS — Consultant Oral & Maxillofacial Surgeon
-          </p>
+          <div class="eyebrow">Meet Your Doctor</div>
+          <h2>Dr. Vikramjet</h2>
+          <span class="doctor-qual">BDS, MDS — Consultant Oral & Maxillofacial Surgeon</span>
 
-          <p style="color: #f0f0f0; line-height: 1.8; margin-bottom: 2rem;">
+          <p>
             With over 12 years of dedicated clinical practice, Dr. Vikramjet has transformed thousands of smiles through expert surgical expertise, compassionate patient care, and commitment to the latest dental techniques. His specialization in complex maxillofacial procedures ensures you receive world-class treatment in a comfortable, professional environment.
           </p>
 
           <div>
-            <div style="font-weight: 600; color: #D4AF37; margin-bottom: 1rem;">Professional Credentials</div>
             <div class="cred-list">
               <div class="cred-item">
-                <span class="cred-dot">•</span>
-                Ex-Resident, PGIMS Rohtak
+                <div class="cred-dot">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <strong>Ex-Resident, PGIMS Rohtak</strong>
+                  <span>Advanced clinical training</span>
+                </div>
               </div>
               <div class="cred-item">
-                <span class="cred-dot">•</span>
-                Senior Resident, JLNMCH
+                <div class="cred-dot">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <strong>Senior Resident, JLNMCH</strong>
+                  <span>Specialized surgical experience</span>
+                </div>
               </div>
             </div>
           </div>
 
           <div style="margin-top: 2rem;">
-            <div style="font-weight: 600; color: #D4AF37; margin-bottom: 1rem;">Associated Hospitals</div>
+            <div style="font-weight: 600; color: rgba(255,255,255,.9); margin-bottom: 1rem;">Associated Hospitals</div>
             <div class="hosp-row">
-              <span class="hosp-pill">Nobel Health City Rohtak</span>
-              <span class="hosp-pill">Holy Heart Superspeciality Hospital</span>
+              <span class="hosp-pill">
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5m-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11m3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/>
+                </svg>
+                Nobel Health City Rohtak
+              </span>
+              <span class="hosp-pill">
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5m-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11m3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/>
+                </svg>
+                Holy Heart Superspeciality Hospital
+              </span>
             </div>
           </div>
         </div>
@@ -424,52 +487,77 @@
   </section>
 
   <!-- TESTIMONIALS / REVIEWS -->
-  <section class="reviews-section" style="background: linear-gradient(135deg, #FBF8F3 0%, #f5ede1 100%); padding: 4rem 0;">
+  <section class="reviews-section section">
     <div class="container">
-      <div class="reviews-header text-center reveal">
+      <div class="reviews-header reveal">
         <h2>What Our Patients Say</h2>
         <div class="rating-chip">
-          <div class="r-stars">★★★★★</div>
-          5.0 out of 5 (5055+ Reviews)
+          <div class="r-stars">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <strong>5.0</strong>
+          <span>5055+ Reviews</span>
         </div>
       </div>
 
       <div class="reviews-grid reveal">
         <!-- Review 1 -->
         <div class="review-card">
-          <div class="rev-stars">★★★★★</div>
-          <p>"Budget-friendly without compromising quality. Dr. Vikramjet's team is thorough and takes time to explain everything. Highly satisfied with the treatment."</p>
-          <div style="display: flex; align-items: center; gap: 0.75rem; margin-top: 1.5rem;">
+          <div class="rev-stars">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <blockquote>"Budget-friendly without compromising quality. Dr. Vikramjet's team is thorough and takes time to explain everything. Highly satisfied with the treatment."</blockquote>
+          <div class="rev-author">
             <div class="rev-avatar">A</div>
             <div>
-              <div class="rev-author">Anita Kumar</div>
-              <div style="font-size: 0.85rem; color: #666;">Dental Implant</div>
+              <strong>Anita Kumar</strong>
+              <span>Dental Implant</span>
             </div>
           </div>
         </div>
 
         <!-- Review 2 -->
         <div class="review-card">
-          <div class="rev-stars">★★★★★</div>
-          <p>"Good doctors, good treatment, very nice facilities. The clinic is clean and well-maintained. Staff is courteous and efficient. Definitely recommend!"</p>
-          <div style="display: flex; align-items: center; gap: 0.75rem; margin-top: 1.5rem;">
+          <div class="rev-stars">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <blockquote>"Good doctors, good treatment, very nice facilities. The clinic is clean and well-maintained. Staff is courteous and efficient. Definitely recommend!"</blockquote>
+          <div class="rev-author">
             <div class="rev-avatar">R</div>
             <div>
-              <div class="rev-author">Rajesh Nanda</div>
-              <div style="font-size: 0.85rem; color: #666;">Root Canal Treatment</div>
+              <strong>Rajesh Nanda</strong>
+              <span>Root Canal Treatment</span>
             </div>
           </div>
         </div>
 
         <!-- Review 3 -->
         <div class="review-card">
-          <div class="rev-stars">★★★★★</div>
-          <p>"Highly recommend for skilled and trustworthy service. Dr. Vikramjet is patient and professional. No pain, no pressure, just quality dental care. Will visit again!"</p>
-          <div style="display: flex; align-items: center; gap: 0.75rem; margin-top: 1.5rem;">
+          <div class="rev-stars">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <blockquote>"Highly recommend for skilled and trustworthy service. Dr. Vikramjet is patient and professional. No pain, no pressure, just quality dental care. Will visit again!"</blockquote>
+          <div class="rev-author">
             <div class="rev-avatar">P</div>
             <div>
-              <div class="rev-author">Priya Sharma</div>
-              <div style="font-size: 0.85rem; color: #666;">Cosmetic Dentistry</div>
+              <strong>Priya Sharma</strong>
+              <span>Cosmetic Dentistry</span>
             </div>
           </div>
         </div>
@@ -478,7 +566,7 @@
   </section>
 
   <!-- GALLERY STRIP -->
-  <section class="gallery-section" style="padding: 3rem 0; background: white;">
+  <section class="gallery-section section-sm">
     <div class="container">
       <div class="text-center reveal" style="margin-bottom: 2rem;">
         <div class="eyebrow">Gallery</div>
@@ -486,31 +574,40 @@
       </div>
 
       <div class="gallery-grid reveal">
-        <div class="gal-item" style="background-image: url('images/clinic-1.jpg');">
-          <div class="gal-overlay">Modern Facility</div>
+        <div class="gal-item">
+          <img src="images/clinic-1.jpg" alt="Modern dental clinic facility">
+          <div class="gal-overlay">
+            <span>Modern Facility</span>
+          </div>
         </div>
-        <div class="gal-item" style="background-image: url('images/clinic-2.jpg');">
-          <div class="gal-overlay">Treatment Area</div>
+        <div class="gal-item">
+          <img src="images/clinic-2.jpg" alt="Advanced treatment area">
+          <div class="gal-overlay">
+            <span>Treatment Area</span>
+          </div>
         </div>
-        <div class="gal-item" style="background-image: url('images/clinic-3.jpg');">
-          <div class="gal-overlay">Reception</div>
+        <div class="gal-item">
+          <img src="images/clinic-3.jpg" alt="Reception area">
+          <div class="gal-overlay">
+            <span>Reception</span>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- CTA SECTION -->
-  <section id="contact" class="cta-section" style="background: linear-gradient(135deg, #09524E 0%, #0d6a65 100%); color: white; padding: 3rem 0;">
+  <section class="cta-section section">
     <div class="container">
-      <div class="cta-inner text-center">
-        <h2 class="cta-text reveal" style="color: white;">Ready for a Healthier Smile?</h2>
-        <p class="reveal" style="color: #d4d4d4; margin: 1rem 0 2rem;">
-          Schedule your appointment today and experience world-class dental care.
-        </p>
-        <div class="cta-actions reveal">
-          <button class="btn btn-gold">Book Appointment</button>
+      <div class="cta-inner reveal">
+        <div class="cta-text">
+          <h2>Ready for a Healthier Smile?</h2>
+          <p>Schedule your appointment today and experience world-class dental care.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="contact.html" class="btn btn-gold">Book Appointment</a>
           <a href="https://wa.me/919540670276" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
-            <svg style="width: 16px; height: 16px; display: inline-block; margin-right: 0.5rem;" viewBox="0 0 24 24" fill="currentColor">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
               <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.781 1.226l-.309.161-.32-.052c-1.091-.175-2.116-.595-3.01-1.246l-.142-.108-.156.025C2.869 6.648 1.921 7.864 1.921 9.285c0 .908.24 1.775.696 2.537l.11.176-.091.259c-.408 1.149-.706 2.29-.862 3.453l-.098.788.516-.332c.393-.252.763-.449 1.1-.596l.1-.046c.316-.09.63-.183.941-.277l.339-.082.309.189c2.039 1.254 4.34 1.902 6.771 1.902 1.007 0 1.992-.098 2.945-.3l.359-.063.298.185c1.49.918 3.133 1.404 4.797 1.404 1.29 0 2.514-.247 3.629-.746l.288-.13-.075-.312c-.307-1.293-.89-2.507-1.724-3.558l-.139-.179.035-.25c.22-1.535.14-3.156-.22-4.697l-.086-.439.44-.053c.88-.106 1.703-.423 2.373-.946l.154-.116-.018-.323C22.15 10.245 20.993 7.75 18.925 5.984 17.139 4.572 14.733 3.744 12.176 3.744c-.524 0-1.046.027-1.554.082l-.338.032-.133-.307c-.648-1.495-2.06-2.526-3.708-2.526z"/>
             </svg>
             WhatsApp Us
@@ -521,84 +618,78 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="footer" style="background: #051f1d; color: #999; padding: 3rem 0 1rem;">
+  <footer class="footer">
     <div class="container">
       <div class="footer-grid">
         <!-- Col 1: Brand -->
-        <div class="footer-col footer-brand">
-          <div class="f-logo-row" style="margin-bottom: 1rem;">
-            <svg class="logo-mark" viewBox="0 0 40 40" width="32" height="32" style="color: #D4AF37;">
-              <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M20 4v32M12 8c0 4 2 10 8 12s8-8 8-12"/>
-                <path d="M12 8h16M12 14h16"/>
-                <ellipse cx="20" cy="26" rx="4" ry="6"/>
-              </g>
-            </svg>
-            <span style="font-size: 1.2rem; font-weight: 600; color: white;">Oriiface</span>
+        <div class="footer-brand">
+          <div class="f-logo-row">
+            <div class="logo-mark" style="width: 32px; height: 32px; background: var(--gold); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+              <svg viewBox="0 0 40 40" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <g>
+                  <path d="M20 4v32M12 8c0 4 2 10 8 12s8-8 8-12"/>
+                  <path d="M12 8h16M12 14h16"/>
+                  <ellipse cx="20" cy="26" rx="4" ry="6"/>
+                </g>
+              </svg>
+            </div>
+            <span style="font-size: 1.05rem; font-weight: 700; color: #fff;">Oriiface</span>
           </div>
-          <p style="font-size: 0.9rem; line-height: 1.6; color: #aaa; margin-bottom: 1.5rem;">
-            Rohtak's trusted dental clinic. Expert care by Dr. Vikramjet. 5000+ satisfied patients.
-          </p>
+          <p>Rohtak's trusted dental clinic. Expert care by Dr. Vikramjet. 5000+ satisfied patients.</p>
           <div class="social-row">
-            <a href="https://facebook.com" class="social-link" title="Facebook" target="_blank" rel="noopener noreferrer">f</a>
-            <a href="https://instagram.com" class="social-link" title="Instagram" target="_blank" rel="noopener noreferrer">@</a>
-            <a href="https://wa.me/919540670276" class="social-link" title="WhatsApp" target="_blank" rel="noopener noreferrer">W</a>
+            <a href="https://facebook.com" class="social-link" title="Facebook" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M18 2h-3a6 6 0 0 0-6 6v3H7v4h2v8h4v-8h3l1-4h-4V8a2 2 0 0 1 2-2h3z"/></svg>
+            </a>
+            <a href="https://instagram.com" class="social-link" title="Instagram" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="#051f1d"/><circle cx="17.5" cy="6.5" r="1.5" fill="#051f1d"/></svg>
+            </a>
+            <a href="https://wa.me/919540670276" class="social-link" title="WhatsApp" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.781 1.226l-.309.161-.32-.052c-1.091-.175-2.116-.595-3.01-1.246l-.142-.108-.156.025C2.869 6.648 1.921 7.864 1.921 9.285c0 .908.24 1.775.696 2.537l.11.176-.091.259c-.408 1.149-.706 2.29-.862 3.453l-.098.788.516-.332c.393-.252.763-.449 1.1-.596l.1-.046c.316-.09.63-.183.941-.277l.339-.082.309.189c2.039 1.254 4.34 1.902 6.771 1.902 1.007 0 1.992-.098 2.945-.3l.359-.063.298.185c1.49.918 3.133 1.404 4.797 1.404 1.29 0 2.514-.247 3.629-.746l.288-.13-.075-.312c-.307-1.293-.89-2.507-1.724-3.558l-.139-.179.035-.25c.22-1.535.14-3.156-.22-4.697l-.086-.439.44-.053c.88-.106 1.703-.423 2.373-.946l.154-.116-.018-.323C22.15 10.245 20.993 7.75 18.925 5.984 17.139 4.572 14.733 3.744 12.176 3.744c-.524 0-1.046.027-1.554.082l-.338.032-.133-.307c-.648-1.495-2.06-2.526-3.708-2.526z"/></svg>
+            </a>
           </div>
         </div>
 
         <!-- Col 2: Quick Links -->
         <div class="footer-col">
-          <h4 style="color: white; font-size: 0.95rem; font-weight: 600; margin-bottom: 1rem;">Quick Links</h4>
-          <ul style="list-style: none; padding: 0;">
-            <li><a href="index.html" style="color: #aaa; text-decoration: none; font-size: 0.9rem;">Home</a></li>
-            <li><a href="#services" style="color: #aaa; text-decoration: none; font-size: 0.9rem;">Services</a></li>
-            <li><a href="#about" style="color: #aaa; text-decoration: none; font-size: 0.9rem;">About Us</a></li>
-            <li><a href="#contact" style="color: #aaa; text-decoration: none; font-size: 0.9rem;">Contact</a></li>
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
 
         <!-- Col 3: Treatments -->
         <div class="footer-col">
-          <h4 style="color: white; font-size: 0.95rem; font-weight: 600; margin-bottom: 1rem;">Treatments</h4>
-          <ul style="list-style: none; padding: 0;">
-            <li><a href="#services" style="color: #aaa; text-decoration: none; font-size: 0.9rem;">Dental Implants</a></li>
-            <li><a href="#services" style="color: #aaa; text-decoration: none; font-size: 0.9rem;">Root Canal Therapy</a></li>
-            <li><a href="#services" style="color: #aaa; text-decoration: none; font-size: 0.9rem;">Smile Design</a></li>
-            <li><a href="#services" style="color: #aaa; text-decoration: none; font-size: 0.9rem;">Emergency Care</a></li>
+          <h5>Treatments</h5>
+          <ul>
+            <li><a href="services.html">Dental Implants</a></li>
+            <li><a href="services.html">Root Canal Therapy</a></li>
+            <li><a href="services.html">Smile Design</a></li>
+            <li><a href="services.html">Emergency Care</a></li>
           </ul>
         </div>
 
         <!-- Col 4: Find Us -->
-        <div class="footer-col">
-          <h4 style="color: white; font-size: 0.95rem; font-weight: 600; margin-bottom: 1rem;">Find Us</h4>
-          <div class="f-info">
-            <div class="f-info-row" style="margin-bottom: 1rem;">
-              <svg style="width: 16px; height: 16px; color: #D4AF37; margin-right: 0.5rem; flex-shrink: 0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
-              </svg>
-              <div style="font-size: 0.9rem;">19, Delhi Rd, MDU campus, Delhi Bypass, Rohtak, Haryana 124021</div>
-            </div>
-            <div class="f-info-row" style="margin-bottom: 1rem;">
-              <svg style="width: 16px; height: 16px; color: #D4AF37; margin-right: 0.5rem; flex-shrink: 0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-              </svg>
-              <a href="tel:+919540670276" style="color: #aaa; text-decoration: none; font-size: 0.9rem;">095406 70276</a>
-            </div>
-            <div class="f-info-row">
-              <svg style="width: 16px; height: 16px; color: #D4AF37; margin-right: 0.5rem; flex-shrink: 0;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="1"/><path d="M12 1v6m0 6v6M4.22 4.22l4.24 4.24m5.08 5.08l4.24 4.24M1 12h6m6 0h6m-1.78-7.22l-4.24 4.24m-5.08 5.08l-4.24 4.24"/>
-              </svg>
-              <div style="font-size: 0.9rem;">Mon-Sat: 9:00 AM - 7:30 PM</div>
-            </div>
+        <div class="f-info">
+          <div class="f-info-row">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>19, Delhi Rd, MDU campus, Delhi Bypass, Rohtak, Haryana 124021</span>
+          </div>
+          <div class="f-info-row">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:+919540670276">095406 70276</a>
+          </div>
+          <div class="f-info-row">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="1"/><path d="M12 1v6m0 6v6M4.22 4.22l4.24 4.24m5.08 5.08l4.24 4.24M1 12h6m6 0h6m-1.78-7.22l-4.24 4.24m-5.08 5.08l-4.24 4.24"/></svg>
+            <span>Mon-Sat: 9:00 AM - 7:30 PM</span>
           </div>
         </div>
       </div>
 
-      <div class="footer-bottom" style="border-top: 1px solid #1a3532; padding-top: 2rem; margin-top: 2rem; text-align: center; font-size: 0.85rem; color: #777;">
-        <p style="margin: 0;">
-          &copy; 2026 Oriiface Dental Care and Maxillofacial Center. All rights reserved. | 
-          19, Delhi Rd, MDU campus, Rohtak, Haryana 124021 | 095406 70276 | Mon-Sat 9AM-7:30PM
-        </p>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Oriiface Dental Care and Maxillofacial Center. All rights reserved. | 19, Delhi Rd, MDU campus, Rohtak, Haryana 124021 | 095406 70276 | Mon-Sat 9AM-7:30PM</p>
       </div>
     </div>
   </footer>
